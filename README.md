@@ -1,6 +1,6 @@
 <div id="header" align="center"> <img src="https://media.giphy.com/media/YpZbh3wXqG11aK2zRd/giphy.gif" width="250"/> </div>
-Ejercicios de Java para COFANDI
-En este repositorio, estan todas las actividades desarrolladas para que los estudiantes de COFANDI tengan ejercicios atómicos de cada unidad para aprobar la certificación en Java.
+Ejercicios de Java para COMFANDI
+En este repositorio, estan todas las actividades desarrolladas para que los estudiantes de COMFANDI tengan ejercicios atómicos de cada unidad para aprobar la certificación en Java.
 
 Todos los ejercicios están resueltos con los conocimientos que el tutor imparte. Cada ejercicio tiene el Título del Ejercicio arriba del Main para que puedas resolverlos y ver cómo los ha resuelto.
 
