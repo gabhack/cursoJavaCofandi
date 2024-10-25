@@ -1,80 +1,73 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/YpZbh3wXqG11aK2zRd/giphy.gif" width="250"/>
-</div>
+<div id="header" align="center"> <img src="https://media.giphy.com/media/YpZbh3wXqG11aK2zRd/giphy.gif" width="250"/> </div>
+Ejercicios de Java para COFANDI
+En este repositorio, estan todas las actividades desarrolladas para que los estudiantes de COFANDI tengan ejercicios atómicos de cada unidad para aprobar la certificación en Java.
 
-# Java Book Exercises (ed. Paraninfo)
-In this repository I will upload all the activities carried out from the Programming manual by [Alfonso Jiménez Martín and Francisco Manuel Pérez Montes (ed. Paraninfo)](https://www.paraninfo.es/catalogo/9788428342865/programacion--edicion-2021-) .
+Todos los ejercicios están resueltos con los conocimientos que el tutor imparte. Cada ejercicio tiene el Título del Ejercicio arriba del Main para que puedas resolverlos y ver cómo los ha resuelto.
 
-All the **exercises** are solved with the knowledge that I have been learning, all of them have the **Title of the Exercise** above the `Main` so that you can solve them. And you can see how I have solved it.
+Estructura de archivos 📁
+La estructura del archivo se divide por unidades, cada unidad se explica más adelante. Las unidades son un Proyecto Netbeans en el que cada actividad es un Paquete con su correspondiente clase y elementos necesarios.
 
-# File structure 📁
-The file structure is divided by **units** each unit is explained later.
-The **units** are a Netbeans Project in which each activity is a Package with its corresponding class and necessary elements.
+Hay un paquete llamado Funciones que tiene funciones de uso frecuente.
 
-There is a Package called **Functions** which has widely used functions.
- 1. Keyboard reading.
-2. Handling Arrays
-3. Matrix Management
-4. String handling.
-5. Math problems
+Lectura de teclado.
+Manejo de Arrays
+Gestión de Matrices
+Manejo de Strings.
+Problemas Matemáticos
+Este paquete está desarrollado por Gabriel y lo ha utilizado para facilitar el desarrollo de las actividades.
 
-All this package is developed by me and I have used it to facilitate the development of the activities.
+Unidades
+Temas
 
-# Units
-Topics
+A continuación se presentan los temas cubiertos en cada unidad:
 
-The following are the topics covered in each unit of the manual.
+Unidad 1: Conceptos Básicos
+Esta unidad cubre ejercicios básicos para entender la sintaxis de Java, así como otros conceptos comunes necesarios para entender cualquier lenguaje de programación. Los temas incluyen variables, diferentes tipos de operadores, tipos primitivos (tamaños, rangos y conversiones), salida y entrada de consola, la API de Java y una breve introducción a los métodos.
 
-### Unit 1: Basic Concepts
-This unit covers basic exercises to understand Java syntax, as well as other common concepts that are necessary to understand any programming language. The topics include variables, different types of operators, primitive types (sizes, ranges, and conversions), console output and input, the Java API, and a brief introduction to methods.
+Unidad 2: Condicionales
+Este tema aborda estructuras de selección, aplicaciones no lineales, condicionales simples (if), dobles (if-else), y múltiples (switch). Uso extensivo de operadores relacionales y lógicos, así como revisión del operador ternario.
 
-### Unit 2: Conditionals
-This topic covers selection structures, nonlinear applications, single (`if`), double (`if-else`), and multiple (`switch`) conditionals. Extensive use of relational and logical operators, as well as revisiting the ternary operator.
+Unidad 3: Bucles
+Esta unidad cubre estructuras de repetición (while, do while, y for), así como cómo programar aplicaciones que repiten conjuntos de instrucciones usando bucles. Se ha hecho un uso extensivo de funciones para la resolución de los ejercicios con el fin de no repetir código, aunque las funciones se explicarán en la próxima unidad.
 
-### Unit 3: Loops
-This unit covers repetition structures (`while`, `do while`, and `for`), as well as how to program applications that repeat sets of statements using loops. Has been made an extensive use of functions for the resolution of the exercises in order to not repeat code, although the functions will be explained in the next unit.
+Unidad 4: Funciones
+Esta unidad introduce el concepto de funciones, las ventajas de su uso e implementación en código. Los ejercicios tratan sobre parámetros de entrada, automatización de funciones, sobrecarga y escritura de programas que hacen uso de la recursividad. Los estudiantes también aprenderán cómo hacer sus primeras bibliotecas en Java.
 
-### Unit 4: Functions
-This unit introduces the concept of functions, the advantages of their use, and implementation in code. The exercises deal with input parameters, automating functions, overloading, and writing programs that make use of recursion. Students will also learn how to make their first libraries in Java.
+Unidad 5: Arrays
+En este tema, trabajamos con arrays para almacenar múltiples valores en una variable. Creamos arrays de diferentes tipos y longitudes, además de realizar las operaciones más comunes con arrays. Se diseñarán programas que hagan uso de este elemento, modificando la longitud de los arrays en tiempo de ejecución sin perder los datos. Uso de la API de Java relacionada con arrays y aplicación de su uso para la resolución de problemas.
 
-### Unit 5: Arrays
-In this topic, we work with arrays to store multiple values in a variable. We create arrays of different types and lengths, in addition to performing the most common operations with arrays. Programs that make use of this element will be designed, modifying the length of the arrays at runtime without losing the data. Use of the Java API related to arrays and apply its use to troubleshooting.
+Unidad 6: Strings
+En esta unidad, trabajamos con el tipo primitivo char, utilizando métodos y funcionalidades. Además, usamos la clase String, realizando operaciones avanzadas con texto. Trabajaremos con la API de Java para implementar aplicaciones con texto.
 
-### Unit 6: Strings
-In this unit, we work with the primitive type `char`, using methods and functionalities. Additionally, we use the `String` class, performing advanced operations with text. We will work with the Java API to implement applications with text.
+Unidad 7: Clases
+Este tema introduce los conceptos básicos de la Programación Orientada a Objetos (OOP). Escribimos programas que hacen uso de OOP para resolver problemas, facilitando tu trabajo como programador. Decidiremos si los atributos serán visibles o no, para clases externas y vecinas.
 
-### Unit 7: Classes
-This topic introduces the basic concepts of Object Oriented Programming (OOP). We write programs that make use of OOP to solve problems, making it easier for you as a programmer. We will decide if the attributes will be visible or not, for external and neighboring classes.
+Unidad 8: Herencia
+Los proyectos en esta unidad introducen el concepto de herencia, trabajando con clases y superclases. Conoceremos las limitaciones de acceso a los miembros de una superclase, sobrescribiremos métodos, usaremos las principales funcionalidades definidas en la clase Object, y usaremos clases abstractas.
 
-### Unit 8: Inheritance
-The projects in this unit introduce the concept of inheritance, working with classes and superclasses. We will know the access limitations to the members of a superclass, we will override methods, use the main functionalities defined in the Object class, and use abstract classes.
+Unidad 9: Interfaces
+Este tema introduce los conceptos básicos de interfaces, definiendo métodos abstractos en una interfaz, implementando interfaces a una clase, entendiendo la herencia de interfaces, interfaces de API como Comparator y Comparable, implementando clases anónimas y el uso de ordenación de clases en listas.
 
-### Unit 9: Interfaces
-This topic introduces the basics of interfaces, defining abstract methods in an interface, implementing interfaces to a class, understanding interface inheritance, API interfaces such as `Comparator` and `Comparable, implementing anonymous classes and the use of class sorting in lists.: Interfaces
+Unidad 10: Archivos de Texto
+En esta unidad aprenderás el concepto de excepción y sus tipos, manipularás excepciones, crearás excepciones, crearás flujos de entrada y salida de texto usando Scanner, FileWriter, FileReader, BufferedWriter, BufferedReader y PrintWriter y leerás y escribirás archivos XML.
 
-### Unit 10: Text Files
-In this unit you will learn the concept of exception and its types, manipulate exceptions, create exceptions, create text input and output streams using `Scanner`,`FileWriter`,`FileReader`,`BufferedWriter`,`BufferedReader` and `PrintWriter` and read and write to XML files.
+Unidad 11: Texto Binario
+En esta unidad aprenderemos cómo abrir y cerrar archivos binarios con ObjectOutputStream y ObjectInputStream, conocer las posibles excepciones que pueden lanzarse durante la apertura/cierre y escritura/lectura, manejar sistemas para guardar y cargar datos.
 
-### Unit 11: Binary Text
-In this unit we will learn how to open and close binary files with `ObjectOutputStream` and `ObjectInputStream`, to know the possible exceptions that can be thrown during file opening/closing and writing/reading, to manage systems for saving and loading data.
+Unidad 12: Colecciones
+El objetivo de esta unidad es aprender sobre la interfaz Collections, List, Set. Uso y conocimiento de sus diferencias de ArrayList, LinkedList, HashSet, TreeSet, LinkedHashSet y HashMap, TreeMap. Uso de conversiones entre diferentes implementaciones de List y Set.
 
-### Unit 12: Collections
-The aim of this unit is to learn about the `Collections` , `List`, `Set` interface. Use and know their differences from `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `LinkedHashSet` and `HashMap`, `TreeMap`. Use conversions between different implementations of `List` and `Set`.
+Unidad 13: Stream
+En esta unidad aprenderemos cómo implementar interfaces funcionales en línea, expresiones lambda. Conocer las interfaces Predicate, Function, Consumer. Saber cómo usar la interfaz Stream, usar tuberías en operaciones encadenadas, terminales Stream.
 
-### Unit 13: Stream
-In this unit we will learn how to implement in-line functional interfaces, lambda expressions. Know the interfaces `Predicate`, `Function`, `Consumer`. Know how to use the `Stream` interface, use pipes in chained operations, `Stream` terminals.
+Unidad 14: Conectividad de Base de Datos (JDBC)
+En esta unidad, aprenderás sobre la persistencia de datos usando sistemas de gestión de bases de datos (SGBD) y cómo configurar el controlador JDBC para acceder a bases de datos de diferentes fabricantes. Explorarás temas como configurar el controlador JDBC, establecer una conexión entre un programa Java y un SGBD, ejecutar sentencias SQL y realizar mapeo objeto-relacional para clases sencillas. Al dominar estos conceptos, serás capaz de persistir datos de manera efectiva, conectar con bases de datos, ejecutar sentencias SQL y aprovechar las técnicas de mapeo objeto-relacional en tus aplicaciones Java.
 
-### Unit 14: Database Connectivity (JDBC)
-In this unit, you will learn about data persistence using database management systems (SGBD) and how to configure the JDBC driver to access databases from different manufacturers. You will explore topics such as configuring the JDBC driver, establishing a connection between a Java program and an SGBD, executing SQL statements, and performing object-relational mapping for simple classes. By mastering these concepts, you'll be able to effectively persist data, connect to databases, execute SQL statements, and leverage object-relational mapping techniques in your Java applications.
+Unidad 15: Java Persistence API (JPA)
+Esta unidad se centra en la Java Persistence API (JPA) y los conceptos fundamentales de la persistencia de datos. Aprenderás cómo salvaguardar y recuperar datos en cualquier aplicación comprendiendo los mecanismos de conversión entre datos de objeto y bases de datos relacionales. Además, clasificarás las relaciones de clase basadas en la navegabilidad y la cardinalidad.
 
-## Unit 15: Java Persistence API (JPA)
-This unit focuses on the Java Persistence API (JPA) and the fundamental concepts of data persistence. You will learn how to safeguard and retrieve data in any application by understanding the conversion mechanisms between object data and relational databases. Additionally, you will classify class relationships based on navigability and cardinality.
+El concepto de persistencia de objetos se explorará, incluyendo sus aplicaciones en almacenamiento basado en archivos y enfoques alternativos. También te familiarizarás con diferentes notaciones y clases proporcionadas por JPA, junto con el Java Persistence Query Language (JPQL) para la consulta de datos.
 
-The concept of object persistence will be explored, including its applications in file-based storage and alternative approaches. You will also become familiar with different notations and classes provided by JPA, along with the Java Persistence Query Language (JPQL) for data querying.
+La unidad introducirá las herramientas ofrecidas por NetBeans para la gestión de JPA. Estas herramientas incluyen características como la generación automática de controladores de entidad, gestión gráfica del archivo persistence.xml y asistencia para crear conexiones y entidades a partir de relaciones de esquema.
 
-The unit will introduce the tools offered by NetBeans for JPA management. These tools include features such as automatic generation of entity controllers, graphical management of the persistence.xml file, and assistance for creating connections and entities from schema relationships.
-
-By mastering the Java Persistence API and its related concepts, you will gain the ability to effectively manage data persistence, utilize different notations and classes, and harness the querying capabilities of JPQL. The tools provided by NetBeans will enhance your productivity and efficiency in JPA development tasks.
-
-> **Thank you for reading the project and I hope you find it useful 😉 <br>
-> If you liked it please give me ⭐️**
+Al dominar la Java Persistence API y sus conceptos relacionados, ganarás la capacidad de gestionar eficazmente la persistencia de datos, utilizar diferentes notaciones y clases, y aprovechar las capacidades de consulta de JPQL. Las herramientas proporcionadas por NetBeans mejorarán tu productividad y eficiencia en tareas de desarrollo de JPA.
